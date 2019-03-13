@@ -3,7 +3,7 @@ import json
 
 app = Flask(__name__)
 
-SERVER_PASSWORD = '0Z'
+SERVER_PASSWORD = 'ac'
 
 @app.route('/', methods=['POST'])
 def funct():

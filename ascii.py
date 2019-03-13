@@ -24,6 +24,7 @@ def call_server(password):
 right_pw = ''
 for password in string_list[:5]:
     right_pw = call_server(password)
+    print(password)
     if right_pw != '':
         break
         
